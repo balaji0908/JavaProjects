@@ -16,6 +16,7 @@ public class PdfPasswordUnlock {
 		for (File file : files) {
 		    if (file.isFile()) {
 		        	int index = file.getPath().lastIndexOf("\\");
+		        	//Here mention the path of folder where you can find the unlocked files
 		        	String outputFile = "D:\\Unlocked\\" + file.getPath().substring(index + 1);
 		        	PdfReader reader = new PdfReader(file.getPath(), "xyz".getBytes());//xyz is the password of the file
 		        	PdfReader.unethicalreading = true;
