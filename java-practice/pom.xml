@@ -9,11 +9,7 @@
   
   
   <dependencies>
-		<dependency>
-			<groupId>junit</groupId>
-			<artifactId>junit</artifactId>
-			<version>4.12</version>
-		</dependency>
+	  /**Have removed junit 4.12 dependency due to security vulnerability**/
 		
 		<dependency>
 		    <groupId>commons-lang</groupId>
