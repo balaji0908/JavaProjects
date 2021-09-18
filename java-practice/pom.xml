@@ -31,18 +31,19 @@
 		
 		
 		<!-- https://mvnrepository.com/artifact/org.bouncycastle/bcprov-jdk15on -->
+	  <!--
 		<dependency>
 		    <groupId>org.bouncycastle</groupId>
 		    <artifactId>bcprov-jdk15on</artifactId>
 		    <version>1.56</version>
-		</dependency>
+		</dependency> -->
 		
 		<!-- https://mvnrepository.com/artifact/org.bouncycastle/bcmail-jdk15 -->
-		<dependency>
+		 <!--<dependency>
 		    <groupId>org.bouncycastle</groupId>
 		    <artifactId>bcmail-jdk15</artifactId>
 		    <version>1.46</version>
-		</dependency>
+		</dependency>-->
 		
 		
 		
